@@ -1,4 +1,4 @@
-package com.example.midtermexamlucas.beans;
+package ca.sheridancollege.robaszel.midtermexamlucas.beans;
 
 import jakarta.persistence.*;
 import lombok.Data;

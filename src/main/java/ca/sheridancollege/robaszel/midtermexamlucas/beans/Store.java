@@ -1,10 +1,9 @@
-package com.example.midtermexamlucas.beans;
+package ca.sheridancollege.robaszel.midtermexamlucas.beans;
 
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
