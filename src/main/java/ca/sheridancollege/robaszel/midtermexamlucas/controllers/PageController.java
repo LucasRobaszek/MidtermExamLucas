@@ -15,8 +15,8 @@ public class PageController {
 
     @GetMapping("/addProduct")
     public String addProduct(Model model) {
-        model.addAttribute("storeList", InventoryDB.findAll());
-        model.addAttribute("productList", InventoryDB.findById(1L).get().getProducts());
+        model.addAttribute("storeList", inventoryDB.findAll());
+        model.addAttribute("productList", inventoryDB.findById(1L).get().getProducts());
         return "addProduct";
     }
 }

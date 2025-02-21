@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="../static/header.css" th:href="@{/header.css}">
+    <link rel="stylesheet" href="../static/main.css" th:href="@{/main.css}">
+    <link rel="stylesheet" href="../static/footer.css" th:href="@{/footer.css}">
+    <title>Home</title>
 </head>
 <body>
+<header th:replace="~{HeaderAndFooter::Header}">
+    <h1></h1>
+</header>
+<main>
 
+</main>
+<footer th:replace="~{HeaderAndFooter::footer}">
+</footer>
 </body>
 </html>

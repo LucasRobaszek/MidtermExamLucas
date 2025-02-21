@@ -16,7 +16,7 @@ public class Product {
     private double price;
     @Column(name = "PRODUCT_QUANTITY")
     private int quantity;
-    @JoinColumn(name = "STORE_ID")
+    @JoinColumn(name = "PRODUCT_STOREID")
     private Long storeId;
 
 }

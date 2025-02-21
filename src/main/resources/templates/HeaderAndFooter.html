@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../static/header.css">
+  <link rel="stylesheet" href="../static/main.css">
+  <link rel="stylesheet" href="../static/footer.css">
+  <title>HeaderAndFooter</title>
+</head>
+<body>
+<header th:fragment="Header">
+  <h1>Welcome to My Store Inventory</h1>
+  <div class="topnav">
+    <a href="home">Home</a>
+    <a href="addProduct">Add Products</a>
+
+  </div>
+</header>
+<main>
+  Some content in the main tag.
+</main>
+<footer th:fragment="Footer">
+  Sheridan College&nbsp;&nbsp;<span class='hart'>&#9825;</span>&nbsp;&nbsp;
+  <span> ID 991727191</span>
+</footer>
+</body>
+</html>
