@@ -18,6 +18,6 @@ public class Store {
     @Column(name="STORE_NAME")
     private String name;
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name="STORE_ID")
+    @JoinColumn(name="PRODUCT_STOREID")
     private List<Product> products = new ArrayList<>();
 }
